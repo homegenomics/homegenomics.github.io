@@ -1,0 +1,40 @@
+---
+title: HomeGenomics
+description: 내 손으로 가족의 유전·생체 데이터를 분석하고, 사랑하는 사람들을 지키기 위한 개발자용 핸드북.
+template: splash
+hero:
+  tagline: 당신의 유전체는 당신의 것입니다. 직접 읽고, 직접 이해하고, 가족을 지키세요.
+  actions:
+    - text: 시작하기
+      link: /start/intro/
+      icon: right-arrow
+    - text: GitHub
+      link: https://github.com/homegenomics
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## 무엇을 위한 곳인가요
+
+HomeGenomics는 **개발자가 본인과 가족의 유전체·생체 데이터를 직접 분석**할 수 있도록 돕는 실용 핸드북입니다. 검사 키트가 돌려주는 raw 데이터를 남의 블랙박스에 맡기지 않고, 직접 열어 보고 이해하고 활용하는 방법을 다룹니다.
+
+<CardGrid stagger>
+	<Card title="raw 데이터부터" icon="document">
+		23andMe·국내 검사·WGS 등에서 나온 raw 파일(VCF, FASTQ, 23andMe txt)을 어떻게 다루는지 처음부터 설명합니다.
+	</Card>
+	<Card title="개발자의 도구로" icon="laptop">
+		Python·CLI·공개 데이터베이스를 써서 변이를 조회하고, 위험을 해석하고, 재현 가능한 분석 파이프라인을 만듭니다.
+	</Card>
+	<Card title="가족을 위해" icon="heart">
+		혈연은 유전체를 공유합니다. 한 사람의 분석이 부모·자녀·형제의 건강을 지키는 단서가 됩니다.
+	</Card>
+	<Card title="에이전트 친화적" icon="puzzle">
+		모든 문서는 <code>/llms.txt</code> 로도 제공되어, AI 에이전트가 그대로 읽고 활용할 수 있습니다.
+	</Card>
+</CardGrid>
+
+:::caution[의학적 조언이 아닙니다]
+이 사이트의 내용은 교육·학습 목적입니다. 진단·치료 결정은 반드시 의료 전문가와 상의하세요.
+:::

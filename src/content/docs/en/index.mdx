@@ -1,0 +1,40 @@
+---
+title: HomeGenomics
+description: A developer-first handbook for analyzing your own and your family's genomic and biometric data — and protecting the people you love.
+template: splash
+hero:
+  tagline: Your genome is yours. Read it, understand it, and protect your family.
+  actions:
+    - text: Get started
+      link: /en/start/intro/
+      icon: right-arrow
+    - text: GitHub
+      link: https://github.com/homegenomics
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## What this is for
+
+HomeGenomics is a practical handbook that helps **developers analyze their own and their family's genomic and biometric data** themselves. Instead of handing your raw test data to someone else's black box, you learn to open it, understand it, and put it to use.
+
+<CardGrid stagger>
+	<Card title="From raw data" icon="document">
+		Start from the raw files your test returns — VCF, FASTQ, 23andMe txt — and learn what each one actually contains.
+	</Card>
+	<Card title="With a developer's tools" icon="laptop">
+		Use Python, the CLI, and public databases to look up variants, interpret risk, and build reproducible analysis pipelines.
+	</Card>
+	<Card title="For your family" icon="heart">
+		Relatives share DNA. One person's analysis can become a clue that protects the health of parents, children, and siblings.
+	</Card>
+	<Card title="Agent-friendly" icon="puzzle">
+		Every page is also served at <code>/llms.txt</code>, so AI agents can read and use it directly.
+	</Card>
+</CardGrid>
+
+:::caution[Not medical advice]
+Everything here is for education and learning. Always consult a qualified professional before making diagnostic or treatment decisions.
+:::
