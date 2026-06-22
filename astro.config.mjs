@@ -28,7 +28,7 @@ export default defineConfig({
 				starlightLlmsTxt({
 					projectName: 'HomeGenomics',
 					description:
-						'A developer-first handbook for analyzing your own and your family genomic and biometric data — so you can understand it and protect the people you love.',
+						'A developer-first handbook for reading and understanding your own and your family genomic and biometric data — compiled by a study group.',
 				}),
 			],
 			sidebar: [

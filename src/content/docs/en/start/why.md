@@ -21,9 +21,9 @@ Understanding this flow, and being able to read the data yourself, is what turns
 
 Your genome and transcriptome are the most sensitive personal data there is — and **data your family shares**. Storing and analyzing the raw data yourself keeps control in your hands, not on a third-party server.
 
-## 4. Protect your family
+## 4. It connects to your family, too
 
-Relatives share much of their genome. A meaningful signal found in one person may apply to parents, children, and siblings too. The ability to analyze is the ability to **catch risk early, at family scale**.
+Relatives share much of their genome. A meaningful signal found in one person may apply to parents, children, and siblings too. Being able to analyze it yourself can be **a clue to look after risk earlier, at family scale**.
 
 ## 5. Prepare while healthy — the biggest lesson
 
