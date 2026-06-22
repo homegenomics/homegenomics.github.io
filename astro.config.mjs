@@ -38,12 +38,13 @@ export default defineConfig({
 					items: [
 						{ label: '소개', translations: { en: 'Introduction' }, slug: 'start/intro' },
 						{ label: '왜 직접 분석하나', translations: { en: 'Why Analyze It Yourself' }, slug: 'start/why' },
+						{ label: '사례: Sid Sijbrandij', translations: { en: 'Case: Sid Sijbrandij' }, slug: 'start/case-sid' },
 					],
 				},
 				{
-					label: '가이드',
-					translations: { en: 'Guides' },
-					items: [{ autogenerate: { directory: 'guides' } }],
+					label: '수업 노트',
+					translations: { en: 'Lessons' },
+					items: [{ autogenerate: { directory: 'lessons' } }],
 				},
 				{
 					label: '레퍼런스',

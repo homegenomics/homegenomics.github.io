@@ -20,15 +20,17 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 
 HomeGenomics는 **개발자가 본인과 가족의 유전체·생체 데이터를 직접 분석**할 수 있도록 돕는 실용 핸드북입니다. 검사 키트가 돌려주는 raw 데이터를 남의 블랙박스에 맡기지 않고, 직접 열어 보고 이해하고 활용하는 방법을 다룹니다.
 
+그 출발점은 한 사람의 **실제 사례**입니다. GitLab 창업자 [Sid Sijbrandij](/start/case-sid/)는 자신의 희귀암을 개발자가 버그를 디버깅하듯 데이터로 파헤치고, 치료를 직접 설계해 그 전 과정을 공개했습니다. 우리는 그 사례를 하나씩 따라가며, **"데이터 → 표적 → 치료"** 라는 패턴을 배웁니다.
+
 <CardGrid stagger>
-	<Card title="raw 데이터부터" icon="document">
-		23andMe·국내 검사·WGS 등에서 나온 raw 파일(VCF, FASTQ, 23andMe txt)을 어떻게 다루는지 처음부터 설명합니다.
+	<Card title="실제 사례로 배운다" icon="open-book">
+		교과서 예제가 아니라, Sid가 공개한 진짜 환자 데이터(약 25TB)로 발현량·싱글셀 RNA-seq를 직접 열어봅니다.
 	</Card>
 	<Card title="개발자의 도구로" icon="laptop">
-		Python·CLI·공개 데이터베이스를 써서 변이를 조회하고, 위험을 해석하고, 재현 가능한 분석 파이프라인을 만듭니다.
+		Python·CLI·공개 데이터베이스를 써서 발현량과 변이를 조회하고, 의미를 해석하고, 재현 가능한 분석 파이프라인을 만듭니다.
 	</Card>
 	<Card title="가족을 위해" icon="heart">
-		혈연은 유전체를 공유합니다. 한 사람의 분석이 부모·자녀·형제의 건강을 지키는 단서가 됩니다.
+		혈연은 유전체를 공유합니다. 건강할 때 미리 데이터를 확보하면, 한 사람의 분석이 부모·자녀·형제를 지키는 단서가 됩니다.
 	</Card>
 	<Card title="에이전트 친화적" icon="puzzle">
 		모든 문서는 <code>/llms.txt</code> 로도 제공되어, AI 에이전트가 그대로 읽고 활용할 수 있습니다.
